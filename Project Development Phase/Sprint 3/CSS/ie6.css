@@ -1,0 +1,26 @@
+/* Website template by freewebsitetemplates.com */
+
+#content div div div {
+	margin-top: 5px;
+	padding-top: 5px;
+}
+
+#content div div div dl dt {
+	padding-top: 10px;
+}
+
+#content div#blog div div.section a {
+	padding-right: 0;
+	width: 205px;
+}
+
+#footer div div div div ul {
+	padding-top: 15px;
+}
+
+#footer div div div div ul li {
+	padding: 0;
+}
+
+#footer div div div div span {
+	margin-top: 60px;}

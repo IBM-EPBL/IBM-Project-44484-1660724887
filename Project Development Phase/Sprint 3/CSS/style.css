@@ -1,0 +1,794 @@
+/* Website template by freewebsitetemplates.com */
+
+body {
+	color:#9FC9F3;
+	font-family: Arial;
+	font-size: 13px;
+	margin: 0;
+	min-width: 960px;
+	padding: 0;
+}
+
+a {
+	outline: none;
+}
+
+img {
+	border: 0;
+}
+
+p {
+	line-height: 24px;
+	text-align: justify;
+}
+
+p a {
+	color: #867f79;
+}
+
+p a:hover {
+	color: #3f4044;
+}
+
+#page {
+	background: url(../images/bg-header.gif) repeat-x ;
+	width: 100%;
+}
+
+#header {
+	height: 130px;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 960px;
+}
+
+#header div {
+	float: left;
+	height: 130px;
+	width: 316px;
+}
+
+#header ul {
+	background: url(../images/bg-navigation.gif) no-repeat top center;
+	float: left;
+	height: 50px;
+	list-style: none;
+	margin: 80px 0 0;
+	padding: 0;
+	width: 644px;
+}
+
+#header ul li {
+	float: left;
+	width: 129px;
+}
+
+#header ul li.first {
+	width: 128px;
+}
+
+#header ul li.last {
+	width: 128px;
+}
+
+#header ul li a {
+	color: #fffbff;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 #cc0850;
+	text-transform: capitalize;
+}
+
+#header ul li a:hover, #header ul li.selected a {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -370px;
+	color: #7c0032;
+	text-shadow: 1px 1px 0 #fde8f7;
+}
+
+#header ul li.first a:hover, #header ul li.current a {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -250px;
+	color: #7c0032;
+	text-shadow: 1px 1px 0 #fde8f7;	
+}
+
+#header ul li.last a:hover, #header ul li.select a  {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -310px;
+	color: #7c0032;
+	text-shadow: 1px 1px 0 #fde8f7;	
+}
+
+#content {
+	height: auto;
+	margin-bottom: 50px;
+	width: auto;
+}
+
+#content span.background {
+	background: url(../images/beautiful-girl.jpg) no-repeat top center;
+	display: block;
+	height: 524px;
+}
+
+#content div#home {
+	overflow: hidden;
+	margin: -30px auto 0;
+	padding: 0 0 0 20px;
+	width: 920px;
+}
+
+#content div#home ul {
+	background: #e5dae0;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 280px;
+}
+
+#content div#home ul li {
+	display: block;
+	height: 180px;
+	margin: 0 10px 10px;
+	position: relative;
+}
+
+#content div#home ul li.first {
+	margin: 10px;
+}
+
+#content div#home ul li p {
+	color: #ffffff;
+	font-weight: bold;
+	left: 0;
+	margin: 0;
+	position: absolute;
+	text-shadow: 1px 2px 0 #CF648E;
+	top: 146px;
+}
+
+#content div#home div {
+	float: right;
+	width: 620px;
+}
+
+#content div#home div h1 {
+	font-size: 30px;
+    font-style: italic;
+    line-height: 37px;
+    margin: -7px 0 0;
+	font-weight: normal;
+    width: 250px;
+}
+
+#content div#home div h1 a {
+	color: #fe3385;
+	text-decoration: none;
+}
+
+#content div#home div h1 span {
+	color: #83756a;
+}
+
+#content div#home div img {
+	float: right;
+	margin-left: 30px;
+    margin-top: -15px;
+}
+
+#content div#home div a.more,
+#footer div div ul li p a.more,
+#footer div div div div p a.more {
+	color: #867f79;
+	display: inline;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+#content div#home div a.more:hover,
+#footer div div ul li p a.more:hover,
+#footer div div div div p a.more:hover,
+#content div div div dl dd a:hover {
+	color: #3f4044;
+}
+
+#content div {
+	margin: 30px auto 0;
+	overflow: hidden;
+	width: 920px;
+}
+
+#content div div.aside, #content div#blog div.aside {
+	float: left;
+	height: auto;
+	margin: 0;
+	width: 240px;
+}
+
+#content div div.aside ul, #content div#blog div.aside ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content div div.aside ul li {
+	background: url(../images/separator.gif) no-repeat center top;
+	display: block;
+	padding: 20px 0 10px;
+}
+
+#content div#blog div.aside ul li {
+	background: none;
+	font-weight: normal;
+	padding: 30px 0 0;
+}
+
+#content div div.aside ul li.first, #content div#blog div.aside ul li.first {
+	background: none;
+	padding-top: 0;
+}
+
+#content div div.aside ul li a,
+#content div div.aside div span {
+	color: #F63C85;
+	display: block;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#content div#blog div.aside ul li p {
+	margin-bottom: 0;
+}
+
+#content div#blog div.aside ul li p.first {
+	margin-top: 10px;
+}
+
+#content div div.aside ul li img {
+	float: none;
+}
+
+#content div div {
+	float: right;
+    height: auto;
+    margin: 0;
+    width: 620px;
+}
+
+#content div div h2 {
+	color: #F63C85;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 15px;
+	padding-top: 20px;
+}
+
+#content div#blog div.aside ul li h2 {
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+#content div div h2.first {
+	padding-top: 0;
+}
+
+#content div div img {
+	float: right;
+}
+
+#content div div b {
+	display: block;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+#content div div ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content div div ol li {
+	display: block;
+	height: 1%;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+#content div div ol li.first {
+	padding-top: 0;
+}
+
+#content div div ol li span {
+	float: left;
+    height: 60px;
+    margin-top: 7px;
+    width: 60px;
+}
+
+#content div div ol li  p {
+	float: right;
+    margin: 0;
+    width: 545px;
+}
+
+#content div div ol li span#primary {
+	background: url(../images/sprites-icons.gif) no-repeat 0 0;
+}
+
+#content div div ol li span#secondary {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -70px;
+}
+
+#content div div ol li span#tertiary {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -139px;
+}
+
+#content div div div {
+	background: url(../images/border-dashed.gif) repeat-x top center;
+	float: none;
+    margin-top: 10px;
+    overflow: hidden;
+    width: auto;
+}
+
+#content div div div dl {
+	float: left;
+	width: 310px;
+}
+
+#content div div div dl.first {
+	margin-left: 0;
+}
+
+#content div div div dl dt {
+	color: #F63C85;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+#content div div div dl dd {
+	line-height: 24px;
+	margin: 0;
+}
+
+#content div div div dl dd a {
+	color: #867F79;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: lowercase;
+}
+
+#content div div h1 {
+	font-size: 30px;
+	color: #867f79;
+	font-weight: normal;
+	margin-top: 0;
+}
+
+#content div div h1 span {
+	display: inline;
+	font-size: 30px;
+	color: #F63C85;
+}
+
+#content div div span {
+	display: block;
+	font-size: 18px;
+	color: #F63C85;
+}
+
+#content div div p {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+#content div div h3 {
+	color: #F63C85;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+#content div#blog div ul li h3 {
+	font-size: 18px;
+	margin: 0;
+	padding-top: 5px;
+	text-indent: 20px;
+}
+
+#content div#blog div ul li span {
+	color: #827771;
+    display: inline;
+    font-size: 13px;
+    font-style: normal;
+	font-weight: normal;
+	line-height: 0;
+}
+
+#content div div.aside div {
+	background: none;
+	margin-top: 0;
+}
+
+#content div div.aside div span {
+	text-align: left;
+}
+
+#content div div.aside div ol {
+	list-style: none;
+	margin: 20px 0 50px;
+	overflow: hidden;
+	padding: 0;
+}
+
+#content div div.aside div ol li {
+	float: left;
+    height: 120px;
+    padding: 0;
+    width: 120px;
+}
+
+#content div div.aside div ol li a {
+	color: #A0496C;
+    display: block;
+    line-height: 120px;
+    text-decoration: none;
+	text-indent: -99999px;
+}
+
+#content div div.aside div ol li a.facebook {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -430px;
+}
+
+#content div div.aside div ol li a.subscribe {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -690px;
+}	
+
+#content div div.aside div ol li a.twitter {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -860px;
+}
+
+#content div div.aside div ol li a.flicker {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -560px;
+}
+
+#content div div.aside div b {
+	color: #564444;
+	font-family: Georgia;
+	font-size: 30px;
+    font-weight: normal;
+    line-height: 40px;
+	margin-bottom: 50px;
+	padding-top: 10px;
+    text-align: center;
+	width: 240px;
+}
+
+#content div div.aside div p {
+	margin: 0;
+    padding-top: 15px;
+    text-align: left;
+}
+
+#content div#blog div.aside ul li div p {
+	padding: 0;
+}
+
+#content div#blog div.aside ul li div {
+	padding-left: 30px;
+}	
+
+#content div div.aside div b span {
+	background: url(../images/sprites-icons.gif) no-repeat 60px -1165px;
+	display: block;
+	height: 94px;
+	margin-top: 15px;
+	width: auto;
+}
+
+#content div div form p {
+	padding-top: 10px;
+}
+
+#content div div form label {
+	display: block;
+	padding: 10px 0 5px;
+}
+
+#content div div form {
+	padding-left: 20px;
+}
+
+#content div div form input {
+	color: #A0496C;
+	border: 1px solid #e3d6dd;
+	height: 30px;
+	width: 320px;
+}
+
+#content div div form textarea {
+	color: #A0496C;
+	border: 1px solid #e3d6dd;
+	font-family: Arial;
+	height: 320px;
+    margin-top: 20px;
+    width: 570px;
+}
+
+#content div div form input.submit {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -820px;
+	border: 0;
+	float: right;
+    height: 30px;
+    margin: 20px 25px 30px 0;
+    width: 120px;
+}
+
+#footer {
+	background: #f2e1e9 url(../images/bg-footer2.gif) repeat-x top center;
+	height: auto;
+	width: 100%;
+}
+
+#footer div {
+	background:  url(../images/bg-footer.jpg) no-repeat top center;
+}
+
+#footer div div {
+	margin: 0 auto 10px;
+	width: 960px;
+}
+
+#footer div div ul {
+	clear: both;
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+#footer div div ul li {
+	float: left;
+	width: 320px;
+}
+
+#footer div div ul li h2 {
+	font-size: 20px;
+	font-style: italic;
+	margin: 0 0 0 25px;
+	width: 283px;
+}
+
+#footer div div ul li h2 a {
+	color: #f63c85;
+	display: block;
+	text-decoration: none;
+}
+
+#footer div div ul li p {
+	margin-left: 25px;
+    width: 283px;
+}
+
+#footer div div div {
+	background: none;
+	overflow: hidden;
+	padding-top: 65px;
+    width: auto;
+}
+
+#footer div div div div {
+	float: left;
+    height: auto;
+    margin-left: 35px;
+    width: 282px;
+}
+
+#footer div div div div.first {
+	margin-left: 21px;
+}
+
+#footer div div div div h3 {
+	color: #F63C85;
+	font-size: 18px;
+	font-style: italic;
+	margin: 0;
+}
+
+#footer div div div div h3 a:hover, 
+#footer div div ul li h2 a:hover,
+#content div div.aside ul li a:hover {
+	color: #ab3d69;
+}
+
+#content div#blog div ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content div#blog div ul li {
+	background: url(../images/border-dashed.gif) repeat-x center 25px;
+	padding-top: 10px;
+	position: relative;
+}
+
+#content div#blog div ul li span#date {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -209px;
+	color: #F8FFFB;
+    display: inline-block;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 17px;
+    width: 87px;
+}
+
+#content div#blog div ul li span.connect {
+	display: block;
+	height: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+	z-index: 1;
+}
+
+#content div#blog div ul li span.connect a {
+	display: block;
+	float: left;
+    height: 20px;
+	margin: 0 0 0 5px;
+    text-decoration: none;
+    text-indent: -99999px;
+    width: 20px;
+}
+
+#content div#blog div ul li span.connect a.twitter {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1330px;
+}
+ 
+#content div#blog div ul li span.connect a.heart {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1083px;
+}
+
+#content div#blog div ul li span.connect a.facebook {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1022px;
+}
+
+#content div#blog div ul li h1 {
+	font-weight: normal;
+	text-indent: 100px;
+}
+
+#content div#blog div ul li h1 a {
+	color: #875976;
+	text-decoration: none;
+}
+
+#content div#blog div ul li h1 a:hover {
+	color: #68475d;
+}
+
+#content div#blog div ul li h2 {
+	font-weight: normal;
+	padding-top: 0;
+}
+
+#content div#blog div div.section {
+	padding-top: 10px;
+}
+
+#content div#blog div div.section a {
+	color: #F63C85;
+    display: block;
+    float: left;
+    font-size: 18px;
+	height: 1%;
+	line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    width: 206px;
+}
+
+#content div#blog div div.section a.newerpost {
+	text-align: left;
+}
+
+#content div#blog div div.section a.olderpost {
+	text-align: right;
+}
+
+#content div#blog div ul li img {
+	margin-right: 105px;
+    margin-top: -43px;
+}
+
+#footer div div div div ul {
+	list-style: none;
+	margin: 0;
+    overflow: hidden;
+    padding: 10px 0 0 10px;
+}
+
+#footer div div div div ul li {
+	float: left;
+    padding: 5px 0;
+    width: 125px;
+}
+
+#footer div div div div ul li a {
+	color: #584549;
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	text-decoration: none;
+	text-indent: 30px;
+}
+
+#footer div div div div ul li a:hover {
+	color: #A0496C;
+}
+
+#footer div div div div ul li a.facebook {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -990px;
+}
+
+#footer div div div div ul li a.support {
+	background: url(../images/sprites-icons.gif) no-repeat 43px -1266px;
+	padding-left: 40px;
+}
+
+#footer div div div div ul li a.twitter {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1300px;
+}
+
+#footer div div div div ul li a.flicker {
+	background: url(../images/sprites-icons.gif) no-repeat 43px -1052px;
+	padding-left: 40px;
+}
+
+#footer div div div div span {
+	background: url(../images/sprites-icons.gif) no-repeat 0 -1114px;
+	display: block;
+	color: #584549;
+	font-family: Georgia;
+	font-size: 30px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    text-indent: 60px;
+}
+
+#footer div p.footnote {
+	background: url(../images/bg-copyright.gif) no-repeat top center;
+	color: #c48aa0;
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	margin: 0;
+	text-align: center;
+}
+
+#one {
+width:1330px;
+height:200px;
+}
+#table {
+color:black;
+}
+#srini {
+ color:black;
+}
+#btn {
+  
+  padding:14px 80px;
+  font-size: 16px;
+  cursor: pointer;
+}
